@@ -2174,7 +2174,7 @@ L.Control.TimeDimension = L.Control.extend({
     },
 
     _getDisplayDateFormat: function(date) {
-        return this._dateUTC ? date.toISOString() : date.toLocaleString();
+        return date.toLocaleString();
     },
     _getDisplaySpeed: function(fps) {
         return fps + 'fps';
